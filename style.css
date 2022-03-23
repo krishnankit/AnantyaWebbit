@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+nav {
+    
+    background-color: rgba(0, 128, 128, 0.432);
+}
+
+.navbar {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.branding {
+    font-size: 2rem;
+}
+
+#daily {
+    color: teal;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+
+.menu-item {
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #ffffff;
+    color: teal;
+}
+
+.container {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.blog {
+    border: 2px solid teal;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.blog-desc {
+    padding: 20px;
+    height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-desc img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+.blog-desc .content {
+    text-align: left;
+    margin-left: 15px;  
+}
+
+.blog-desc button {
+    align-self: center;
+}
+
+.btn {
+    background-color: teal;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.25s;
+    border-radius: 5px;
+    margin: 10px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    width: max-content;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: teal;
+}
+
+.blog-content {
+    text-align: left;
+    padding: 20px;
+    display: block;
+}
+
+.show {
+    display: block !important;
+}
+
+.form-container {
+    text-align: center;
+    border: 1px solid teal;
+    border-radius: 5px;
+    width: 40%;
+    margin: 100px auto auto;
+    padding: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+form .name,
+form .contact {
+    display: flex;
+    gap: 10px;
+}
+
+form input,
+form textarea,
+form textarea::placeholder {
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Roboto' sans-serif;
+    margin: 5px auto;
+    width: 100%;
+}
+
+form textarea {
+    height: 50px;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 5px !important;
+}
+
+input[type="submit"] {
+    font-size: 1.2rem;
+    margin: 10px auto;
+}
